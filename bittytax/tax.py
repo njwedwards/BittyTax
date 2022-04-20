@@ -490,7 +490,8 @@ class CalculateCapitalGains(object):
                        2018: {'small_rate': None, 'main_rate': 19},
                        2019: {'small_rate': None, 'main_rate': 19},
                        2020: {'small_rate': None, 'main_rate': 19},
-                       2021: {'small_rate': None, 'main_rate': 19}}
+                       2021: {'small_rate': None, 'main_rate': 19},
+                       2022: {'small_rate': None, 'main_rate': 19}}
 
     def __init__(self, tax_year, tax_rules):
         self.totals = {'cost': Decimal(0),
